@@ -7,7 +7,7 @@
 Terdapat tiga class yang dibuat pada latihan ini, yaitu class Product, Memory, dan Hardware. Dalam penerapan materi Multilevel Inheritance maka class Product dijadikan sebagai induk dari class Hardware, kemudian class Hardware diturunkan kepada class Memory. Class Hardware menjadi perantara yang menghubungkan class Product dan Memory. 
 
 <p align="center">
-  <img width="140.25" height="401.25" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true">
+  <img width="170.25" height="501.25" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true">
 </p>
 
 Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan class Hardware.
@@ -30,13 +30,27 @@ Atrubut dari setiap class:
 ### Screenshot Program
 
 #### Java
-![java]()
+
+<p align="left">
+  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/Java.png?raw=true">
+</p>
 
 #### C++
-![c++]()
+
+<p align="left">
+  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/C++.png?raw=true">
+</p>
+
 
 #### Python
-![python]()
+
+<p align="left">
+  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/Python.png?raw=true">
+</p>
 
 #### PHP
-![php]()
+
+<p align="left">
+  <img width="585" height="427" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/PHP.png?raw=true">
+</p>
+
