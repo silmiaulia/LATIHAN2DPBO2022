@@ -40,7 +40,7 @@ class Product{
         
     } 
 
-	public function __destruct(){ //dektruktor
+	public function __destruct(){ //desktruktor
 		
 	}
 }
