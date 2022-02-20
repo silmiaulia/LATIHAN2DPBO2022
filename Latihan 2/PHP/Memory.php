@@ -50,7 +50,7 @@ class Memory extends Hardware{ //kelas Memory turunan dari kelas Hardware
         echo "Support Cude  : ". $this->getSupportsCuda()."<br/>";
     } 
 
-	public function __destruct(){ //dektruktor
+	public function __destruct(){ //desktruktor
 
 	}
 }
