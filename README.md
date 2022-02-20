@@ -12,7 +12,7 @@ Terdapat tiga class yang dibuat pada latihan ini, yaitu class Product, Memory, d
 
 Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan class Hardware.
 
-Atrubut dari setiap class:
+Atribut dari setiap class:
 1. Product
    - price
    - idProduct
