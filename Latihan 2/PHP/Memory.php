@@ -34,7 +34,7 @@ class Memory extends Hardware{ //kelas Memory turunan dari kelas Hardware
 		$this->MemorySize = $MemorySize;
 	}
 
-    public function getSupportsCuda() {
+    	public function getSupportsCuda() {
 		return $this->supportsCuda;
 	}
 
