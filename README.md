@@ -6,7 +6,9 @@
 ### Deskripsi Program 
 Terdapat tiga class yang dibuat pada latihan ini, yaitu class Product, Memory, dan Hardware. Dalam penerapan materi Multilevel Inheritance maka class Product dijadikan sebagai induk dari class Hardware, kemudian class Hardware diturunkan kepada class Memory. Class Hardware menjadi perantara yang menghubungkan class Product dan Memory. 
 
-![Pewarisan](https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true)
+<p align="center">
+  <img width="140.25" height="401.25" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true">
+</p>
 
 Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan class Hardware.
 
