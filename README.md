@@ -8,7 +8,7 @@ Terdapat tiga class yang dibuat pada latihan ini, yaitu class Product, Memory, d
 
 ![Pewarisan](https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true)
 
-Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan kelas Hardware.
+Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan class Hardware.
 
 Atrubut dari setiap class:
 1. Product
@@ -21,6 +21,9 @@ Atrubut dari setiap class:
    - frequency
    - MemorySize
    - supportsCuda
+
+
+
 
 ### Screenshot Program
 
