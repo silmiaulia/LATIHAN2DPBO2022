@@ -4,27 +4,29 @@
 > maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin 
 
 ### Deskripsi Program 
-Terdapat tiga class yang dibuat pada latihan ini, yaitu class Product, Memory, dan Hardware. Dalam penerapan materi Multilevel Inheritance maka class Product dijadikan sebagai induk dari class Hardware, kemudian class Hardware diturunkan kepada class Memory. Class Hardware menjadi perantara yang menghubungkan class Product dan Memory. 
+Pada latihan ketiga ini terdapat empat buah kelas yang memiliki <em>has-a</em> ralationship, yaitu class Processor, Disk, Ram, dan PC. Dalam implementasi materi Composition ini class PC berisi objek dari Komponen kelas lain. Jadi class PC memiliki sebuah class Processor, Disk, dan juga Ram.
 
 <p align="center">
-  <img width="170.25" height="501.25" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Multilevel%20Inheritance%20Ilustrasi.png?raw=true">
+  <img width="648" height="416" src="https://github.com/silmiaulia/LATIHAN3DPBO2022/blob/main/Diagram.png?raw=true">
 </p>
 
-Dari ilustrasi di atas class Hardware mewarisi atribut dan fitur dari class Product, sedangkan class Memory memiliki fitur dan atribut gabungan dari class Product dan class Hardware.
 
 Atribut dari setiap class:
-1. Product
+1. Processor
    - price
-   - idProduct
-2. Hardware
-   - brand
-   - model
-3. Memory
-   - frequency
-   - MemorySize
-   - supportsCuda
-
-
+   - name
+2. Disk
+   - type
+   - capacity
+   - price
+3. Ram
+   - capacity
+   - price
+4. PC
+   - Processor
+   - Disk
+   - Ram
+   - totalPrice
 
 
 ### Screenshot Program
@@ -32,25 +34,25 @@ Atribut dari setiap class:
 #### Java
 
 <p align="left">
-  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/Java.png?raw=true">
+  <img width="520" height="625.5" src="https://github.com/silmiaulia/LATIHAN3DPBO2022/blob/main/Screenshot/java.png?raw=true">
 </p>
 
 #### C++
 
 <p align="left">
-  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/C++.png?raw=true">
+  <img width="520" height="625.5" src="https://github.com/silmiaulia/LATIHAN3DPBO2022/blob/main/Screenshot/C++.png?raw=true">
 </p>
 
 
 #### Python
 
 <p align="left">
-  <img width="587" height="625.5" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/Python.png?raw=true">
+  <img width="520" height="625.5" src="https://github.com/silmiaulia/LATIHAN3DPBO2022/blob/main/Screenshot/Python.png?raw=true">
 </p>
 
 #### PHP
 
 <p align="left">
-  <img width="585" height="427" src="https://github.com/silmiaulia/LATIHAN2DPBO2022/blob/main/Screenshot/PHP.png?raw=true">
+  <img width="604" height="606" src="https://github.com/silmiaulia/LATIHAN3DPBO2022/blob/main/Screenshot/PHP.png?raw=true">
 </p>
 
